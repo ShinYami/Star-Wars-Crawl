@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background: black;
-    overflow: hidden;
+    background-color: black;
+    background-image: url(assets/bg.jpg);
     font-family: 'Roboto';
-    color: white;
+    background-attachment:fixed;
+    background-position:center center;
 }
 
 .credit {
