@@ -1,19 +1,8 @@
-@font-face 
-{
-    font-family: "Star Jedi";
-    src: url("font/Starjedi.ttf") format("ttf"),
-         url("font/Starjhol.ttf") format("ttf"),
-         url("font/STJEDISE.ttf") format("ttf"),
-         url("font/Stjldbl1.ttf") format("tff"),
-         url("font/Stjldbl2.ttf") format("ttf"),
-         url("font/Strjmono.ttf") format("ttf"),
-         url("font/Starjout.ttf") format("ttf)");
-}
+
 
 body {
     background-color: black;
     background-image: url(assets/bg.jpg);
-    font-family: 'Star Jedi';
     background-attachment:fixed;
     background-position:center center;
 }
@@ -38,5 +27,3 @@ h1, h2 {
     text-align: center;
     color: #5cc6d4;
 }
-
-@keyframes 
