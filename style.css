@@ -3,6 +3,8 @@ body {
     background-size: cover;
     overflow: hidden;
     color: #ffb13a;
+    background-attachment:fixed;
+    background-position:center center;
 }
 
 h2 {
