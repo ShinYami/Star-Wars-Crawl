@@ -5,7 +5,9 @@ body {
     background-attachment:fixed;
     background-position:center center;
     font-family: 'Roboto';
+    overflow: hidden;   
 }
+
 
 .credit {
     height: 100%;
