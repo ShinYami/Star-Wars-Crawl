@@ -21,6 +21,7 @@ body {
     height: 1600px;
     transform: perspective(250px) rotateX(20deg);
     animation: scroll 90s linear forwards;
+    margin-top: 300px;
 }
 
 .crawl h3 {
