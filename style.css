@@ -6,7 +6,9 @@ body {
     font-family: 'Roboto';
     background-attachment:fixed;
     background-position:center center;
+    overflow: hidden;   
 }
+
 
 .credit {
     height: 100%;
@@ -28,4 +30,6 @@ h1, h2 {
     color: #5cc6d4;
 }
 
-@keyframes 
+@keyframes scroll {
+    
+}
