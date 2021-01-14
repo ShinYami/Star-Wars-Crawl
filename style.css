@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body {
     background-color: black;
     background-image: url(assets/bg.jpg);
-    font-family: 'Roboto';
     background-attachment:fixed;
     background-position:center center;
+    font-family: 'Roboto';
 }
 
 .credit {
@@ -20,12 +19,10 @@ body {
     line-height: 1.5em;
     text-align: justify;
     font-weight: bold;
-    position: relative;
+    position: relative; 
 }
 
 h1, h2 {
     text-align: center;
     color: #5cc6d4;
 }
-
-@keyframes 
