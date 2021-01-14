@@ -1,35 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background-color: black;
     background-image: url(assets/bg.jpg);
     background-attachment:fixed;
     background-position:center center;
     font-family: 'Roboto';
-    overflow: hidden;   
+    overflow: hidden;
+    color: #ffb13a;   
 }
 
-p {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.credit {
-    height: 100%;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.texte {
-    color: #ffc909;
-    line-height: 1.5em;
+.crawl {
+    font-family: 'Roboto';
     text-align: justify;
-    font-weight: bold;
-    position: relative; 
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 80px;
+    width: 1000px;
+    height: 1600px;
     transform: perspective(250px) rotateX(20deg);
+    animation: scroll 90s linear forwards;
 }
 
-h1, h2 {
+.crawl h3 {
     text-align: center;
-    color: #5cc6d4;
 }
 
+.head {
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: perspective(250px) rotateX(20deg) translateY(680px);
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: perspective(250px) rotateX(20deg) translateY(-4000px);
+        opacity: 0;
+    }
+}
