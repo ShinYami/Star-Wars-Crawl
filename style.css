@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face 
+{
+    font-family: "Star Wars";
+    src: url("font/STARWARS.eot") format("eot"),
+         url("font/STARWARS.svg") format("svg"),
+         url("font/STARWARS.ttf") format("ttf"),
+         url("font/STARWARS.woff") format("woff");
+}
+
 
 body {
     background-color: black;
     background-image: url(assets/bg.jpg);
-    font-family: 'Roboto';
+    font-family: 'Star Wars', sans-serif;
     background-attachment:fixed;
     background-position:center center;
 }
