@@ -9,7 +9,6 @@ body {
 }
 
 .credit {
-    display: flex;
     height: 100%;
     width: 60%;
     margin: 0 auto;
@@ -28,3 +27,5 @@ h1, h2 {
     text-align: center;
     color: #5cc6d4;
 }
+
+@keyframes 
