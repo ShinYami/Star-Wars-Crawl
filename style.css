@@ -22,7 +22,7 @@ h2 {
     width: 1000px;
     height: 1600px;
     transform: perspective(250px) rotateX(20deg);
-    animation: scrollCrawl 90s linear forwards;
+    animation: scrollCrawl 60s linear forwards;
     animation-delay: 
 }
 
@@ -49,3 +49,4 @@ h2 {
         opacity: 0;
     }
 }
+
