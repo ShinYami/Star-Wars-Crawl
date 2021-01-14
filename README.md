@@ -9,8 +9,8 @@ This repositery contains three versions of Stars Wars' Crawl:
 
 # Acknowledgements
 Thanks to the collaborators for this presentation:
-* Loris Conti
 * Natalia Cherman
+* Loris Conti
 
 # Links
 * [Version 1](https://github.com/ShinYami/Star-Wars-Crawl/releases/tag/Version1)
