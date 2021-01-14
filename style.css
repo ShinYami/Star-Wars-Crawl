@@ -11,13 +11,9 @@ h2 {
    color: #5cc6d4; 
 }
 
-img {
-    width: 35%;
-    height: auto;
-}
-
+ 
 .crawl {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     margin: 0 auto;
     font-weight: 800;
@@ -27,6 +23,7 @@ img {
     height: 1600px;
     transform: perspective(250px) rotateX(20deg);
     animation: scrollCrawl 90s linear forwards;
+    animation-delay: 
 }
 
 .preheader {
