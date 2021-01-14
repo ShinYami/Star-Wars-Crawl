@@ -20,31 +20,31 @@ h1
 {
     color: #5cc6d4;
 }
-  
+
+
+
 .fond
 {
-    position: relative;
     width: 100%;
     min-height: 60vh;
     top: -25px;
-    z-index: 1;
 }
   
 .credit {
     display: flex;
     justify-content: center;
     position: relative;
-    height: 800px;
-    color: #f2da67;
+    height: 700px;
+    color: #fbdc17;
     font-size: 500%;
     font-weight: 600;
     letter-spacing: 6px;
-    line-height: 150%;
+    line-height: 100%;
     perspective: 400px;
     text-align: justify;
 }
   
-.scroll 
+.crawl
 {
     position: relative;
     top: 9999px;
@@ -52,13 +52,13 @@ h1
     animation: crawl 60s linear;
 }
   
-.scroll .texte
+.crawl .texte
 {
     font-size: 90%;
     text-align: center;
 }
   
-.scroll .texte h1 
+.crawl .texte h1 
 {
     margin: 0 0 100px;
 }
